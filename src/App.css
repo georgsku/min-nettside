@@ -26,6 +26,8 @@
 .frontpage-bilde {
   height: auto;
   width: calc(100%);
+  padding-bottom: 30px;
+  border: solid 5px #c5c5c5;
 }
 
 .project {
@@ -36,7 +38,7 @@
 
 .project-image {
   height: 200px;
-  widows: 200px;
+  width: 200px;
   border: solid 5px #ededed;
   margin: 0 40px;
 }
@@ -45,18 +47,30 @@ h1 {
   font-family: neuzeit-grotesk, sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 90px;
+  font-size: 80px;
   text-align: center;
+  margin-bottom: 15px
 }
 
 h2 {
   font-family: neuzeit-grotesk, sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 35px;
+  font-weight: 700;
+  font-size: 45px;
+  color: rgb(238, 101, 83);
+  text-align: center;
+  margin: 0;
 }
 
 h3 {
+  font-family: neuzeit-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  margin-top: 75px;
+}
+
+h4 {
   font-family: neuzeit-grotesk, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -71,7 +85,3 @@ p {
   font-size: 22px;
   margin: 0;
 }
-
-/* 
-#ededed
-#c5c5c5 */
