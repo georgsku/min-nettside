@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import bilde from './georgbilde.JPG'
 import ullogo from './ul.jpg'
@@ -31,7 +30,9 @@ function App() {
           <img src={spaceinvader} alt="IMG" className='project-image'/>
           <div className=''>
             <h4>Spaceinvader</h4>
-            <p>tekst her</p>
+            <p>Mitt første programmeringsprosjekt. Skoleoppgave i objektorientert programmering, <br></br>
+            TDT4100. Oppgaven var å lage en app  
+             </p>
           </div>
         </div>
       </div> 
