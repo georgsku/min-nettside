@@ -6,6 +6,8 @@ import ulapp from './ulapp.jpg'
 import spaceinvader from './spaceinvader.png'
 import githubLogo from './github-logo.svg'
 import linkedinLogo from './linkedin.svg'
+import googleplaystorelogo from './Google-play-store.svg'
+import appstore from './apple.svg'
 
 function App() {
   return (
@@ -31,9 +33,17 @@ function App() {
             <h4>UL-appen</h4>
             <p>Informasjons-app for NLMs ungdomsfestival UL, skrevet i React Native.
             Gruppeprosjekt med 4 andre studenter.</p>
-            <a href="https://github.com/sebastianvitterso/ULapp" target="_blank" rel="noopener noreferrer">
-              <img alt='IMG' className='socialmedia-logo2' src={githubLogo} />
-            </a> 
+            <div className="social-media-container">
+              <a href="https://github.com/sebastianvitterso/ULapp" target="_blank" rel="noopener noreferrer">
+                <img alt='IMG' className='socialmedia-logo2' src={githubLogo} />
+              </a> 
+              <a href="https://play.google.com/store/apps/details?id=no.nlm.ulApp" target="_blank" rel="noopener noreferrer">
+                <img alt='IMG' className='socialmedia-logo2' src={googleplaystorelogo} />
+              </a>
+              <a href="https://apps.apple.com/no/app/ul-nlm/id1468272755?l=nb" target="_blank" rel="noopener noreferrer">
+                <img alt='IMG' className='socialmedia-logo2' src={appstore} />
+              </a>  
+            </div>  
           </div>
         </div>
         <div className='project'>
